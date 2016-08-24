@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+##
 import random
 
 def compareNum(num1,num2):
@@ -13,6 +13,6 @@ def compareNum(num1,num2):
 num1 = random.randrange(1,9)
 num2 = random.randrange(1,9)
 
-print num1
-print num2
+print "num1 is",num1
+print "num2 is",num2
 print compareNum(num1,num2)
